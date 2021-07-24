@@ -12,7 +12,7 @@ const MapWithFunc = () => {
     ];
     
     return (
-        <div>
+        <div style={{height: '400px'}}>
             <h1>Mapping With Function</h1>
             {
                 products.map(singleProduct => <ProductName singleProduct={singleProduct}></ProductName>)
@@ -28,7 +28,7 @@ function ProductName(props){
         margin: '10px',
         padding:'10px',
         backgroundColor: 'lightGray',
-        width: '150px',
+        width: '300px',
         float: 'left'
       }
     return (

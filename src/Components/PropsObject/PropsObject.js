@@ -9,8 +9,8 @@ const PropsObject = () => {
 
 
     return (
-        <div className="App">
-      <header className="App-header">
+        <div style={{height: '600px'}}>
+      
 
         <h1>WE ARE IN GRAPHIC DESIGN AREA</h1>
         <Product name={products[0].name} price={products[0].price}></Product>
@@ -36,7 +36,7 @@ const PropsObject = () => {
 
 
         
-      </header>
+      
     </div>
   );
 }
