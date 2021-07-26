@@ -1,5 +1,6 @@
 import React from 'react';
 import Counter from './Components/Counter/Counter';
+import Destructure from './Components/Destructure/Destructure';
 import DynamicUsers from './Components/DynamicUsers/DynamicUsers';
 import Mapping from './Components/Mapping/Mapping';
 import PropsObject from './Components/PropsObject/PropsObject';
@@ -13,6 +14,7 @@ const App = () => {
       <MapWithFunc/>
       <Counter/>
       <DynamicUsers/>
+      <Destructure/>
       </div>
   );
 };

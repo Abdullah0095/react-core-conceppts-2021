@@ -9,7 +9,7 @@ const DynamicUsers = () => {
     }, [])
 
     return (
-        <div>
+        <div style={{height: '900px'}}>
             <h1>Dynamic Users: {users.length}</h1>
             {/* {console.log(users)} */}
             <ol>
@@ -20,7 +20,7 @@ const DynamicUsers = () => {
                         <h2>Name: {user.name}</h2>
                         <h4>Email: {user.email}</h4>
                         <h3>User Name{user.username}</h3>
-                        <p>Street Adress: {user.address.street}</p>
+                        <p>Street Address: {user.address.street}</p>
                     </div>
 
                     )

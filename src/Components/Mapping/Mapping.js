@@ -15,7 +15,7 @@ const Mapping = () => {
 
 
     const productNames = products.map(product => product.name);
-    console.log(productNames);
+    // console.log(productNames);
 
     return (
         <div>
